@@ -3205,14 +3205,14 @@ a:hover, a:focus {  color: #f8bb52;  color: #c0c4c8;  outline: none;}
 }
 @-o-keyframes Animate-PHP {  from {  width: 10px;}
 }
-#codeconLaravel {  animation: Animate-Laravel 4s;  -webkit-animation: Animate-Laravel 4s;  -moz-animation: Animate-Laravel 4s;  -o-animation: Animate-Laravel 4s;  width: 70%;  height: 30px;  position: absolute;  background-color: green;}
-@keyframes Animate-Laravel {  from {  width: 10px;}
+#codeconKumbiaPHP {  animation: Animate-kumbiaPHP;  -webkit-animation: Animate-kumbiaPHP 4s;  -moz-animation: Animate-kumbiaPHP 4s;  -o-animation: Animate-kumbiaPHP 4s;  width: 70%;  height: 30px;  position: absolute;  background-color: green;}
+@keyframes Animate-kumbiaPHP {  from {  width: 10px;}
 }
-@-webkit-keyframes Animate-Laravel {  from {  width: 10px;}
+@-webkit-keyframes Animate-kumbiaPHP {  from {  width: 10px;}
 }
-@-moz-keyframes Animate-Laravel {  from {  width: 10px;}
+@-moz-keyframes Animate-kumbiaPHP {  from {  width: 10px;}
 }
-@-o-keyframes Animate-Laravel {  from {  width: 10px;}
+@-o-keyframes Animate-kumbiaPHP {  from {  width: 10px;}
 }
 #codeconLINUX {  width: 100%;  animation: Animate-LINUX 4s;  -webkit-animation: Animate-LINUX 4s;  -moz-animation: Animate-LINUX 4s;  -o-animation: Animate-LINUX 4s;  height: 30px;  position: absolute;  background-color: black;}
 @keyframes Animate-LINUX {  from {  width: 10px;}
