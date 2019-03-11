@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html { font-family: sans-serif; -webkit-text-size-adjust: 100%;   -ms-text-size-adjust: 100%;}
 body { margin: 0;}
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary { display: block;}
@@ -742,7 +743,7 @@ tbody.collapse.in { display: table-row-group;}
 .btn-group-vertical > .btn-group > .btn { float: none;}
 .btn-group-vertical > .btn + .btn,.btn-group-vertical > .btn + .btn-group,.btn-group-vertical > .btn-group + .btn,.btn-group-vertical > .btn-group + .btn-group { margin-top: -1px; margin-left: 0;}
 .btn-group-vertical > .btn:not(:first-child):not(:last-child) { border-radius: 0;}
-.btn-group-vertical > .btn:first-child:not(:last-child) { border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;}
+.btn-group-vertical > .btn:first-child:not(:last-child) { border-radius: 4px;}
 .btn-group-vertical > .btn:last-child:not(:first-child) { border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px;}
 .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn { border-radius: 0;}
 .btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child,.btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle { border-bottom-right-radius: 0; border-bottom-left-radius: 0;}
@@ -1278,7 +1279,7 @@ a.list-group-item-danger.active,button.list-group-item-danger.active,a.list-grou
 .pull-right { float: right !important;}
 .pull-left { float: left !important;}
 .affix { position: fixed;}
-@-ms-viewport { width: device-width;}
+
 @media (max-width: 767px) { .visible-xs {  display: block !important; }
  table.visible-xs {  display: table !important; }
  tr.visible-xs {  display: table-row !important; }
@@ -2062,7 +2063,6 @@ a.list-group-item-danger.active,button.list-group-item-danger.active,a.list-grou
 .fa-wpexplorer:before { content: "\f2de";}
 .fa-meetup:before { content: "\f2e0";}
 .sr-only-focusable:active,.sr-only-focusable:focus { position: static; width: auto; height: auto; margin: 0; overflow: visible; clip: auto;}
-@charset "UTF-8";
 .animated { -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both;}
 .animated.infinite { -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite;}
 .animated.hinge { -webkit-animation-duration: 2s; animation-duration: 2s;}

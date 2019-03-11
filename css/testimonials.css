@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html { font-family: sans-serif; -webkit-text-size-adjust: 100%;   -ms-text-size-adjust: 100%;}
 body { margin: 0;}
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary { display: block;}
@@ -1285,7 +1286,6 @@ a.list-group-item-danger.active,button.list-group-item-danger.active,a.list-grou
 .pull-right { float: right !important;}
 .pull-left { float: left !important;}
 .affix { position: fixed;}
-@-ms-viewport { width: device-width;}
 .visible-xs-block,.visible-xs-inline,.visible-xs-inline-block,.visible-sm-block,.visible-sm-inline,.visible-sm-inline-block,.visible-md-block,.visible-md-inline,.visible-md-inline-block,.visible-lg-block,.visible-lg-inline,.visible-lg-inline-block { display: none !important;}
 @media (max-width: 767px) { .visible-xs {  display: block !important; }
  table.visible-xs {  display: table !important; }
@@ -2070,7 +2070,6 @@ a.list-group-item-danger.active,button.list-group-item-danger.active,a.list-grou
 .fa-wpexplorer:before { content: "\f2de";}
 .fa-meetup:before { content: "\f2e0";}
 .sr-only-focusable:active,.sr-only-focusable:focus { position: static; width: auto; height: auto; margin: 0; overflow: visible; clip: auto;}
-@charset "UTF-8";
 .animated { -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both;}
 .animated.infinite { -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite;}
 .animated.hinge { -webkit-animation-duration: 2s; animation-duration: 2s;}
@@ -2791,7 +2790,7 @@ i {	font-family: 'stroke';	speak: none;	font-style: normal;	font-weight: normal;
 .stroke-upload:before {	content: "\e64d";}
 .stroke-videocamera:before {	content: "\e64e";}
 .stroke-wifi:before {	content: "\e64f";}
-hr.style-hr{	border-top:  1px solid #5a5a5a; border-bottom 1px solid #bfbfbf;}
+hr.style-hr{	border-top:  1px solid #5a5a5a; border-bottom: 1px solid #bfbfbf;}
 .github_icon{ width: 150px;}
 .text-justify{text-align: justify;}
 .text-right{text-align: right;}
@@ -3176,10 +3175,10 @@ a:hover, a:focus {  color: #f8bb52;  color: #c0c4c8;  outline: none;}
 .owl-item.loading{	min-height: 150px;	background: url(AjaxLoader.gif) no-repeat center center}
 .owl-fade-out { z-index: 10; -webkit-animation: fadeOut .7s both ease; -moz-animation: fadeOut .7s both ease; animation: fadeOut .7s both ease;}
 .owl-fade-in { -webkit-animation: fadeIn .7s both ease; -moz-animation: fadeIn .7s both ease; animation: fadeIn .7s both ease;}
-.owl-backSlide-out { -webkit-animation: backSlideOut 1s both ease; -moz-animation: backSlideOut 1s both ease; animation: backSlideOut 1s both ease;}
-.owl-backSlide-in { -webkit-animation: backSlideIn 1s both ease; -moz-animation: backSlideIn 1s both ease; animation: backSlideIn 1s both ease;}
-.owl-fadeUp-in { -webkit-animation: scaleUpFrom .5s ease both; -moz-animation: scaleUpFrom .5s ease both; animation: scaleUpFrom .5s ease both;}
-.owl-fadeUp-out { -webkit-animation: scaleUpTo .5s ease both; -moz-animation: scaleUpTo .5s ease both; animation: scaleUpTo .5s ease both;}
+
+
+
+
 @-webkit-keyframes empty { 0% {opacity: 1}
 }
 @-moz-keyframes empty { 0% {opacity: 1}
