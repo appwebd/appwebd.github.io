@@ -341,6 +341,9 @@ p { margin: 0 0 10px;}
 .lead { margin-bottom: 20px; font-size: 16px; font-weight: 300; line-height: 1.4;}
 @media (min-width: 768px) { .lead {  font-size: 21px; }
 }
+@media (max-width: 768px) {
+ .footer{text-align: center; line-height: 4;}
+}
 small,.small { font-size: 85%;}
 mark,.mark { padding: .2em; background-color: #fcf8e3;}
 .text-right { text-align: right;}
