@@ -1,0 +1,53 @@
+901057c Mon Nov 18 15:40:13 2019 -0300 some properties of the style sheet were restored
+bf30533 Sun Sep 22 23:30:33 2019 -0300 Update index.html
+3c8b08f Fri Sep 13 14:47:26 2019 -0300 was fixed issue in cascade style sheet (Font not found). And fixed issue with images (reported by  Google search console)
+f9a003f Thu Sep 12 21:32:59 2019 -0300 Hreflang tag added
+ebdba31 Fri Apr 12 13:11:55 2019 -0400 was updated tag  canonical
+574d262 Tue Apr 9 10:49:04 2019 -0400 Was changed text, to improve more visual aspect.
+558697e Sun Apr 7 14:55:47 2019 -0400 was added some features like microdata
+056bcdc Sun Apr 7 14:54:00 2019 -0400 was added an image for the profile web page.
+576c4b3 Tue Mar 26 11:01:56 2019 -0300 Add Sitemap Location To Robots.txt File
+5e399bc Tue Mar 26 10:42:20 2019 -0300 Add Sitemap Location To Robots.txt File
+7c57f0d Mon Mar 18 16:09:46 2019 -0300 The famous Google console report "Los elementos en los que se puede hacer clic están demasiado cerca unos de otros", Test, try to give more space between lines.
+52c42a8 Sun Mar 17 17:31:13 2019 -0300 fixing issue with stylesheet & Javascript defer don't run with lib owl.carousel.min.js
+2cd9304 Sun Mar 17 16:51:20 2019 -0300 fixing issue with stylesheet
+14c57e9 Sun Mar 17 16:48:10 2019 -0300 fixing issue with stylesheet
+5bb1225 Sat Mar 16 14:45:49 2019 -0300 Reduce resolution of images. Test with https://www.webpagetest.org
+a9e3f85 Sat Mar 16 14:36:12 2019 -0300 remove defer of <script  type="text/javascript">
+193da21 Sat Mar 16 14:33:54 2019 -0300 reverse the famous preload with javascript loading css
+263973d Sat Mar 16 14:24:23 2019 -0300 was fixed some issues reported with https://developers.google.com/speed/pagespeed/insights/
+f05a375 Sat Mar 16 13:18:50 2019 -0300 was fixed some issues reported with https://developers.google.com/speed/pagespeed/insights/
+7aac9e2 Sat Mar 16 12:46:49 2019 -0300 The meta description is too long.
+9f7325c Sat Mar 16 12:46:36 2019 -0300 google issue "El contenido es mas ancho que la pantalla". Was added meta=viewport ...
+5020b0b Fri Mar 15 11:26:04 2019 -0300 was changed to elements HTTPS instead of HTTP.
+4e2fdf8 Tue Mar 12 10:57:20 2019 -0300 The meta description is too long.
+3200d51 Tue Mar 12 10:51:51 2019 -0300 The meta description is too long.
+b1ac43c Tue Mar 12 10:30:07 2019 -0300 registering sitemap.xml at  https://www.bing.com/webmaster/
+9811b8b Tue Mar 12 10:22:38 2019 -0300 was updated meta language from english to spanish
+095cf2b Mon Mar 11 23:48:15 2019 -0300 traduction of english to spanish (welcome message javascript).
+ec0b003 Mon Mar 11 23:47:08 2019 -0300 traduction of english to spanish (welcome message javascript).
+4c24127 Mon Mar 11 23:37:45 2019 -0300 added file watcher for compress files css/Javascript.
+81c2816 Mon Mar 11 23:37:11 2019 -0300 Added new version of website in language spanish
+818ae0b Mon Mar 11 23:37:03 2019 -0300 Added new version of website in language spanish
+21068c3 Mon Mar 11 23:36:50 2019 -0300 Added new version of website in language spanish
+aca1fbc Mon Mar 11 23:35:34 2019 -0300 Added new version of website in language spanish
+15d6730 Mon Mar 11 23:34:31 2019 -0300 Moved website original english to directory /en/
+0728f01 Mon Mar 11 11:28:42 2019 -0300 docker for test this website
+863f4f9 Mon Mar 11 11:28:15 2019 -0300 was removed unused tags, change @charset "UTF-8" on top the file
+036e4af Wed Oct 24 00:24:17 2018 -0300 Update README
+c80beea Wed Feb 28 19:54:17 2018 -0300 Update css tokens
+e67eb1e Wed Feb 28 19:51:43 2018 -0300 Update token css
+d3db701 Wed Feb 28 19:41:23 2018 -0300 update framework more frequently used in language PHP.
+03bf50e Wed Feb 28 19:40:28 2018 -0300 scanner source code with The leading product for CONTINUOUS CODE QUALITY
+4e4519b Wed Feb 28 19:39:34 2018 -0300 Update framework more used in PHP language
+4951bbf Wed Feb 28 19:39:29 2018 -0300 Update framework more used in PHP language
+4b4a140 Wed Sep 27 00:02:12 2017 -0300 Google Analitycs added
+bf54972 Tue Jun 6 15:19:24 2017 -0400 Update Readme.md
+2f9f83b Tue Jun 6 15:17:00 2017 -0400 A descriptive animated image is added.
+92e52a2 Tue Jun 6 00:36:31 2017 -0400 Update framework phalcon
+2669a83 Tue Jun 6 00:30:35 2017 -0400 Update email of contact.
+926a5fb Fri May 5 16:43:11 2017 -0300 Update README.md
+c81e30e Sun Apr 9 21:56:29 2017 -0300 Update README.md
+1b30734 Sun Apr 9 21:48:52 2017 -0300 Update framework used.
+8fcaf48 Sun Apr 9 21:21:38 2017 -0300 Initial commit
+0b29100 Sun Apr 9 21:18:21 2017 -0300 Initial commit
