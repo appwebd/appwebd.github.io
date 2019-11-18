@@ -3166,9 +3166,10 @@ a:hover, a:focus {  color: #f8bb52;  color: #c0c4c8;  outline: none;}
  .col-sm-7 .col-lg-7 .col-xs-7{  width:100%;  display: block; }
 }
 .profile{ width: 250px; padding:0;}
+#codeconSkills {  font-size: 12px;  height: auto;  padding: 6px;  width:100%;  display: block;}
 #codeconSkills img {  width: 20%;  height: 10%;  margin: auto 35%;  padding: 3px;}
-
-
+.codeconSkillbar {  width: 100%;  height: 30px;  position: relative;  background: transparent;  margin: 10px auto;}
+#codeconBPM{ animation: Animate-BPM 4s; -webkit-animation: Animate-BPM 4s; -moz-animation: Animate-BPM 4s; -o-animation: Animate-BPM 4s; width: 90%; height: 30px; position: absolute; background-color: #23b1db;}
 @keyframes Animate-BPM {  from {  width: 10px;}
 }
 @-webkit-keyframes Animate-BPM {  from {  width: 10px;}
@@ -3177,7 +3178,7 @@ a:hover, a:focus {  color: #f8bb52;  color: #c0c4c8;  outline: none;}
 }
 @-o-keyframes Animate-BPM {  from {  width: 10px;}
 }
-
+#codeconMYSQL{ animation: Animate-MYSQL 6s; -webkit-animation: Animate-MYSQL 6s; -moz-animation: Animate-MYSQL 6s; -o-animation: Animate-MYSQL 6s; width: 100%; height: 30px; position: absolute; background-color: #3E78A6;}
 @keyframes Animate-MYSQL {  from {  width: 10px;}
 }
 @-webkit-keyframes Animate-MYSQL {  from {  width: 10px;}
@@ -3186,7 +3187,7 @@ a:hover, a:focus {  color: #f8bb52;  color: #c0c4c8;  outline: none;}
 }
 @-o-keyframes Animate-MYSQL {  from {  width: 10px;}
 }
-
+#codeconjQuery {  animation: Animate-jQuery 5s;  -webkit-animation: Animate-jQuery 5s;  -moz-animation: Animate-jQuery 5s;  -o-animation: Animate-jQuery 5s;  width: 80%;  height: 30px;  position: absolute;  background-color: #99856d;}
 @keyframes Animate-jQuery {  from {  width: 10px;}
 }
 @-webkit-keyframes Animate-jQuery {  from {  width: 10px;}
@@ -3195,7 +3196,7 @@ a:hover, a:focus {  color: #f8bb52;  color: #c0c4c8;  outline: none;}
 }
 @-o-keyframes Animate-jQuery {  from {  width: 10px;}
 }
-
+#codeconBS {  animation: Animate-BS 4s;  -webkit-animation: Animate-BS 4s;  -moz-animation: Animate-BS 4s;  -o-animation: Animate-BS 4s;  width: 85%;  height: 30px;  position: absolute;  background-color: #c44e45;}
 @keyframes Animate-BS {  from {  width: 10px;}
 }
 @-webkit-keyframes Animate-BS {  from {  width: 10px;}
@@ -3204,7 +3205,7 @@ a:hover, a:focus {  color: #f8bb52;  color: #c0c4c8;  outline: none;}
 }
 @-o-keyframes Animate-BS {  from {  width: 10px;}
 }
-
+#codeconPHP {  animation: Animate-PHP 4s;  -webkit-animation: Animate-PHP 4s;  -moz-animation: Animate-PHP 4s;  -o-animation: Animate-PHP 4s;  width: 100%;  height: 30px;  position: absolute;  background-color: #5A69A6;}
 @keyframes Animate-PHP {  from {  width: 10px;}
 }
 @-webkit-keyframes Animate-PHP {  from {  width: 10px;}
@@ -3213,16 +3214,16 @@ a:hover, a:focus {  color: #f8bb52;  color: #c0c4c8;  outline: none;}
 }
 @-o-keyframes Animate-PHP {  from {  width: 10px;}
 }
-
-@keyframes Animate-kumbiaPHP {  from {  width: 10px;}
+#codeconLaravel {  animation: Animate-Laravel 4s;  -webkit-animation: Animate-Laravel 4s;  -moz-animation: Animate-Laravel 4s;  -o-animation: Animate-Laravel 4s;  width: 70%;  height: 30px;  position: absolute;  background-color: green;}
+@keyframes Animate-Laravel {  from {  width: 10px;}
 }
-@-webkit-keyframes Animate-kumbiaPHP {  from {  width: 10px;}
+@-webkit-keyframes Animate-Laravel {  from {  width: 10px;}
 }
-@-moz-keyframes Animate-kumbiaPHP {  from {  width: 10px;}
+@-moz-keyframes Animate-Laravel {  from {  width: 10px;}
 }
-@-o-keyframes Animate-kumbiaPHP {  from {  width: 10px;}
+@-o-keyframes Animate-Laravel {  from {  width: 10px;}
 }
-
+#codeconLINUX {  width: 100%;  animation: Animate-LINUX 4s;  -webkit-animation: Animate-LINUX 4s;  -moz-animation: Animate-LINUX 4s;  -o-animation: Animate-LINUX 4s;  height: 30px;  position: absolute;  background-color: black;}
 @keyframes Animate-LINUX {  from {  width: 10px;}
 }
 @-webkit-keyframes Animate-LINUX {  from {  width: 10px;}
@@ -3231,7 +3232,7 @@ a:hover, a:focus {  color: #f8bb52;  color: #c0c4c8;  outline: none;}
 }
 @-o-keyframes Animate-LINUX {  from {  width: 10px;}
 }
-
+#codeconPERL{  animation: Animate-PERL 5s;  -webkit-animation: Animate-PERL 5s;  -moz-animation: Animate-PERL 5s;  -o-animation: Animate-PERL 5s;  width: 90%;  height: 30px;  position: absolute;  background-color: #004065;}
 @keyframes Animate-PERL {  from {  width: 10px;}
 }
 @-webkit-keyframes Animate-PERL {  from {  width: 10px;}
@@ -3240,4 +3241,6 @@ a:hover, a:focus {  color: #f8bb52;  color: #c0c4c8;  outline: none;}
 }
 @-o-keyframes Animate-PERL {  from {  width: 10px;}
 }
-
+.codeconSkillArea {  z-index: 1;  float: left;
+  margin-top: 10px;  margin-left: 15px;  text-shadow: none;  color: #fff;  font-size: 12px;  vertical-align: middle;}
+.PercentText {  z-index: 3;  position: relative;  padding-right: 6px;  margin-top: 15px;  float: right;  text-shadow: none;  color: #fff;  font-size: 12px;  vertical-align: middle;}
