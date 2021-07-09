@@ -2,33 +2,29 @@
 body {
     background: #F7F9FC;
     color: #575F7D;
-    font-family: 'Lora', serif;
-    font-size: 17px;
-    font-weight: lighter;
+    font-family: 'Roboto', 'Arial', sans-serif;
+
 }
 h1, h2, h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Arial', sans-serif;
 }
 h1 {
     color: #575F7D;
-    font-size: 32px;
-    font-weight: 900;
+    font-size: 2em;
 }
 h2 {
-    color: #7ECE90;
-    font-size: 20px;
-    font-weight: lighter;
-    font-weight: 500;
+    color: #575F7D;
+    font-size: 1.5em;
 }
 a {
-    font-family: 'Roboto', sans-serif;
+
     text-decoration: none;
-    color: #6B72E1;
-    font-weight: 600;
-    font-size: 16px;
+    color: #370617;
+
+
 }
 a:hover {
-    color: black;
+    color: #6a040f;
 }
 
 
@@ -73,14 +69,14 @@ a:hover {
     width:100px;
 }
 
-.btn-blue {
-    background-color: #6B72E1;
+.btn {
+    background-color: #0077b6;
     color: white;
     padding: 15px 20px;
     border-radius: 4px;
 }
-.btn-blue:hover {
-    background-color: black;
+.btn:hover {
+    background-color: #00b4d8;
     color: white;
 }
 .list-inline {
